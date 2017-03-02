@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: jcd-nodered-001
+  host: jcd-nodered-001
+  disk_quota: 1024M
+  services:
+  - AlchemyAPI-xi
+  - jcd-nodered-001-cloudantNoSQLDB
+  - Personality Insights-il
